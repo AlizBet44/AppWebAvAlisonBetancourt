@@ -1,0 +1,198 @@
+/* ==============================================================================
+   PoliMusic - Auth Screens Styling (Login & Registration)
+   Palette: Soft White & Light Pastel Pink Background with Vibrant Accents
+   ============================================================================== */
+
+.auth-body {
+  background: radial-gradient(circle at 50% 15%, #fce7f3 0%, #fff0f5 45%, #ffffff 85%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.auth-ambient-glow {
+  position: absolute;
+  width: 520px;
+  height: 520px;
+  background: radial-gradient(circle, rgba(244, 114, 182, 0.35) 0%, rgba(216, 180, 254, 0.22) 45%, transparent 70%);
+  top: 10%;
+  border-radius: 50%;
+  pointer-events: none;
+  filter: blur(60px);
+}
+
+.auth-container {
+  width: 100%;
+  max-width: 440px;
+  position: relative;
+  z-index: 10;
+}
+
+.auth-card {
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1.5px solid #fbcfe8;
+  border-radius: var(--radius-lg);
+  padding: 36px 32px;
+  box-shadow: 0 20px 45px rgba(236, 72, 153, 0.12), 0 0 30px rgba(244, 114, 182, 0.15);
+}
+
+.auth-header {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.auth-logo {
+  margin: 0 auto 16px;
+  display: block;
+}
+
+.auth-title {
+  font-size: 22px;
+  font-weight: 800;
+  color: #180b26;
+  letter-spacing: -0.01em;
+  margin-bottom: 6px;
+}
+
+.auth-subtitle {
+  font-size: 13.5px;
+  color: #64748b;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.input-icon-group {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-icon-group svg {
+  position: absolute;
+  left: 14px;
+  width: 18px;
+  height: 18px;
+  fill: #94a3b8;
+  transition: fill 0.2s;
+  pointer-events: none;
+}
+
+.input-icon-group .form-control {
+  width: 100%;
+  padding-left: 42px;
+  height: 44px;
+  background: #ffffff;
+  border: 1.5px solid #fce7f3;
+  color: #180b26;
+  border-radius: var(--radius-md);
+  font-size: 13.5px;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.input-icon-group .form-control::placeholder {
+  color: #94a3b8;
+}
+
+.input-icon-group .form-control:focus {
+  border-color: #ec4899;
+  box-shadow: 0 0 0 3px rgba(236, 72, 153, 0.18);
+}
+
+.input-icon-group .form-control:focus + svg {
+  fill: #ec4899;
+}
+
+.auth-btn-submit {
+  height: 44px;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: var(--radius-full);
+  margin-top: 8px;
+  letter-spacing: 0.02em;
+  background: var(--accent-gradient);
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(236, 72, 153, 0.35);
+  transition: all 0.2s ease;
+}
+
+.auth-btn-submit:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(236, 72, 153, 0.55);
+}
+
+.auth-footer {
+  text-align: center;
+  margin-top: 24px;
+  font-size: 13px;
+  color: #64748b;
+}
+
+.auth-link {
+  color: #ec4899;
+  font-weight: 700;
+  margin-left: 4px;
+  text-decoration: none;
+}
+
+.auth-link:hover {
+  text-decoration: underline;
+  color: #be185d;
+}
+
+/* Quick credentials card for testing */
+.test-creds-card {
+  margin-top: 20px;
+  background: #fdf2f8;
+  border: 1px dashed #f472b6;
+  border-radius: var(--radius-md);
+  padding: 14px 16px;
+  font-size: 12px;
+}
+
+.test-creds-title {
+  font-weight: 700;
+  color: #db2777;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.test-creds-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  color: #475569;
+}
+
+.cred-chip {
+  cursor: pointer;
+  padding: 3px 8px;
+  background: #ffffff;
+  border: 1px solid #fbcfe8;
+  border-radius: 4px;
+  font-family: monospace;
+  color: #db2777;
+  display: inline-block;
+  transition: all 0.15s ease;
+}
+
+.cred-chip:hover {
+  background: #ec4899;
+  border-color: #ec4899;
+  color: #ffffff;
+}

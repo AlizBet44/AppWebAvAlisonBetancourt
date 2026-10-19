@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdf2f8" />
+      <stop offset="100%" stop-color="#fce7f3" />
+    </linearGradient>
+    <linearGradient id="glowPinkPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+  </defs>
+  <rect width="300" height="300" fill="url(#bg)" />
+  <circle cx="150" cy="150" r="90" fill="#ffffff" stroke="#fbcfe8" stroke-width="2" />
+  <circle cx="150" cy="150" r="60" fill="#fff5f8" stroke="#ec4899" stroke-width="1.5" stroke-dasharray="4 2" />
+  <circle cx="150" cy="150" r="22" fill="url(#glowPinkPurple)" />
+  <circle cx="150" cy="150" r="8" fill="#ffffff" />
+  <!-- Music note icon -->
+  <path d="M140 100 L140 145 A15 15 0 0 0 125 160 A15 15 0 0 0 140 175 A15 15 0 0 0 155 160 L155 115 L175 125 L175 105 Z" fill="#ec4899" opacity="0.9" />
+</svg>
