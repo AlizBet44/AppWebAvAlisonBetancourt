@@ -1,4 +1,5 @@
+*.user
 .vs/
+packages/
 bin/
 obj/
-*.user

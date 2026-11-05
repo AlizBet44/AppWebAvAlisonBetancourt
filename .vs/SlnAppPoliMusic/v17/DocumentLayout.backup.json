@@ -1,12 +1,89 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\pc\\source\\repos\\AppWebAvAlisonBetancourt\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{15416C92-14D6-4AC5-A2DD-45727A056A0D}|WebAppPoliMusicV3\\WebAppPoliMusicV3.csproj|c:\\users\\pc\\source\\repos\\appwebavalisonbetancourt\\webapppolimusicv3\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{15416C92-14D6-4AC5-A2DD-45727A056A0D}|WebAppPoliMusicV3\\WebAppPoliMusicV3.csproj|solutionrelative:webapppolimusicv3\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15416C92-14D6-4AC5-A2DD-45727A056A0D}|WebAppPoliMusicV3\\WebAppPoliMusicV3.csproj|c:\\users\\pc\\source\\repos\\appwebavalisonbetancourt\\webapppolimusicv3\\song.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15416C92-14D6-4AC5-A2DD-45727A056A0D}|WebAppPoliMusicV3\\WebAppPoliMusicV3.csproj|solutionrelative:webapppolimusicv3\\song.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15416C92-14D6-4AC5-A2DD-45727A056A0D}|WebAppPoliMusicV3\\WebAppPoliMusicV3.csproj|c:\\users\\pc\\source\\repos\\appwebavalisonbetancourt\\webapppolimusicv3\\song.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{15416C92-14D6-4AC5-A2DD-45727A056A0D}|WebAppPoliMusicV3\\WebAppPoliMusicV3.csproj|solutionrelative:webapppolimusicv3\\song.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15416C92-14D6-4AC5-A2DD-45727A056A0D}|WebAppPoliMusicV3\\WebAppPoliMusicV3.csproj|c:\\users\\pc\\source\\repos\\appwebavalisonbetancourt\\webapppolimusicv3\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{15416C92-14D6-4AC5-A2DD-45727A056A0D}|WebAppPoliMusicV3\\WebAppPoliMusicV3.csproj|solutionrelative:webapppolimusicv3\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\AppWebAvAlisonBetancourt\\WebAppPoliMusicV3\\Web.config",
+              "RelativeDocumentMoniker": "WebAppPoliMusicV3\\Web.config",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\AppWebAvAlisonBetancourt\\WebAppPoliMusicV3\\Web.config",
+              "RelativeToolTip": "WebAppPoliMusicV3\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-11-05T04:21:56.621Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Site.Master",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\AppWebAvAlisonBetancourt\\WebAppPoliMusicV3\\Site.Master",
+              "RelativeDocumentMoniker": "WebAppPoliMusicV3\\Site.Master",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\AppWebAvAlisonBetancourt\\WebAppPoliMusicV3\\Site.Master",
+              "RelativeToolTip": "WebAppPoliMusicV3\\Site.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-11-05T04:36:43.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Song.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\AppWebAvAlisonBetancourt\\WebAppPoliMusicV3\\Song.aspx.cs",
+              "RelativeDocumentMoniker": "WebAppPoliMusicV3\\Song.aspx.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\AppWebAvAlisonBetancourt\\WebAppPoliMusicV3\\Song.aspx.cs",
+              "RelativeToolTip": "WebAppPoliMusicV3\\Song.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T04:35:49.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Song.aspx",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\AppWebAvAlisonBetancourt\\WebAppPoliMusicV3\\Song.aspx",
+              "RelativeDocumentMoniker": "WebAppPoliMusicV3\\Song.aspx",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\AppWebAvAlisonBetancourt\\WebAppPoliMusicV3\\Song.aspx",
+              "RelativeToolTip": "WebAppPoliMusicV3\\Song.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-11-05T04:35:23.397Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
